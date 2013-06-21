@@ -13,6 +13,7 @@
 		42B3A83817743ED1005998B3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 42B3A83617743ED1005998B3 /* Credits.rtf */; };
 		42B3A83B17743ED1005998B3 /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B3A83A17743ED1005998B3 /* APAppDelegate.m */; };
 		42B3A83E17743ED1005998B3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B3A83C17743ED1005998B3 /* MainMenu.xib */; };
+		EF0A44BEEB78BB5A8C13FB0D /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = EF0A4813040266BEC7165B75 /* README.markdown */; };
 		EF0A47B6E3B1D24EB7D6CBC1 /* MTQrDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0A432A8086560F003D22A0 /* MTQrDecoder.m */; };
 		EF0A48A5746C6BB8347CD7C0 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0A436F558D4E3AB30D6C0A /* libiconv.dylib */; };
 		EF0A4BBA6BB73580BFD7AC0F /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0A4136AF814099A88AFD39 /* libzbar.a */; };
@@ -40,6 +41,7 @@
 		EF0A436F558D4E3AB30D6C0A /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = ../../../../../Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libiconv.dylib; sourceTree = "<group>"; };
 		EF0A4509D3ADD16BF3FD4827 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
 		EF0A4708359915519F8351EA /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		EF0A4813040266BEC7165B75 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = file.markdown; path = README.markdown; sourceTree = "<group>"; };
 		EF0A487E794CEEAB3697D9E4 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
 		EF0A4B8DA5E65376770E6FE6 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
 		EF0A4BF6F5677AD063F198B8 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				42B3A82D17743ED1005998B3 /* ZbarOsxWrapper */,
 				42B3A82617743ED1005998B3 /* Frameworks */,
 				42B3A82517743ED1005998B3 /* Products */,
+				EF0A4813040266BEC7165B75 /* README.markdown */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,6 +209,7 @@
 				42B3A83217743ED1005998B3 /* InfoPlist.strings in Resources */,
 				42B3A83817743ED1005998B3 /* Credits.rtf in Resources */,
 				42B3A83E17743ED1005998B3 /* MainMenu.xib in Resources */,
+				EF0A44BEEB78BB5A8C13FB0D /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
