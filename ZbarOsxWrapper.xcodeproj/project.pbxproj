@@ -13,6 +13,9 @@
 		42B3A83817743ED1005998B3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 42B3A83617743ED1005998B3 /* Credits.rtf */; };
 		42B3A83B17743ED1005998B3 /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B3A83A17743ED1005998B3 /* APAppDelegate.m */; };
 		42B3A83E17743ED1005998B3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B3A83C17743ED1005998B3 /* MainMenu.xib */; };
+		EF0A47B6E3B1D24EB7D6CBC1 /* MTQrDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0A432A8086560F003D22A0 /* MTQrDecoder.m */; };
+		EF0A48A5746C6BB8347CD7C0 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0A436F558D4E3AB30D6C0A /* libiconv.dylib */; };
+		EF0A4BBA6BB73580BFD7AC0F /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0A4136AF814099A88AFD39 /* libzbar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,20 @@
 		42B3A83917743ED1005998B3 /* APAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAppDelegate.h; sourceTree = "<group>"; };
 		42B3A83A17743ED1005998B3 /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
 		42B3A83D17743ED1005998B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EF0A4136AF814099A88AFD39 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		EF0A4171AF500CA572C69325 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		EF0A420B66FBFD3E7ADCACE5 /* MTQrDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTQrDecoder.h; sourceTree = "<group>"; };
+		EF0A42FD8363FE2862718A79 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		EF0A432A8086560F003D22A0 /* MTQrDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTQrDecoder.m; sourceTree = "<group>"; };
+		EF0A436F558D4E3AB30D6C0A /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = ../../../../../Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libiconv.dylib; sourceTree = "<group>"; };
+		EF0A4509D3ADD16BF3FD4827 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		EF0A4708359915519F8351EA /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		EF0A487E794CEEAB3697D9E4 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		EF0A4B8DA5E65376770E6FE6 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		EF0A4BF6F5677AD063F198B8 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		EF0A4C8D3A34D5628F002133 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		EF0A4D399DC2613DF315F600 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		EF0A4E850616532E7209BE9D /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +54,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				42B3A82817743ED1005998B3 /* Cocoa.framework in Frameworks */,
+				EF0A4BBA6BB73580BFD7AC0F /* libzbar.a in Frameworks */,
+				EF0A48A5746C6BB8347CD7C0 /* libiconv.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,8 @@
 			children = (
 				42B3A82717743ED1005998B3 /* Cocoa.framework */,
 				42B3A82917743ED1005998B3 /* Other Frameworks */,
+				EF0A41B4AF29F196518FE29E /* zbar */,
+				EF0A436F558D4E3AB30D6C0A /* libiconv.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,6 +107,7 @@
 				42B3A83A17743ED1005998B3 /* APAppDelegate.m */,
 				42B3A83C17743ED1005998B3 /* MainMenu.xib */,
 				42B3A82E17743ED1005998B3 /* Supporting Files */,
+				EF0A458270904449D99ADC2F /* MTQrDecoder */,
 			);
 			path = ZbarOsxWrapper;
 			sourceTree = "<group>";
@@ -100,6 +122,33 @@
 				42B3A83617743ED1005998B3 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF0A41B4AF29F196518FE29E /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				EF0A4708359915519F8351EA /* Decoder.h */,
+				EF0A487E794CEEAB3697D9E4 /* Exception.h */,
+				EF0A4E850616532E7209BE9D /* Image.h */,
+				EF0A4171AF500CA572C69325 /* ImageScanner.h */,
+				EF0A4136AF814099A88AFD39 /* libzbar.a */,
+				EF0A4B8DA5E65376770E6FE6 /* Processor.h */,
+				EF0A4C8D3A34D5628F002133 /* Scanner.h */,
+				EF0A4BF6F5677AD063F198B8 /* Symbol.h */,
+				EF0A42FD8363FE2862718A79 /* Video.h */,
+				EF0A4D399DC2613DF315F600 /* Window.h */,
+				EF0A4509D3ADD16BF3FD4827 /* zbar.h */,
+			);
+			name = zbar;
+			sourceTree = "<group>";
+		};
+		EF0A458270904449D99ADC2F /* MTQrDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				EF0A432A8086560F003D22A0 /* MTQrDecoder.m */,
+				EF0A420B66FBFD3E7ADCACE5 /* MTQrDecoder.h */,
+			);
+			path = MTQrDecoder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +218,7 @@
 			files = (
 				42B3A83417743ED1005998B3 /* main.m in Sources */,
 				42B3A83B17743ED1005998B3 /* APAppDelegate.m in Sources */,
+				EF0A47B6E3B1D24EB7D6CBC1 /* MTQrDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +318,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZbarOsxWrapper/ZbarOsxWrapper-Prefix.pch";
 				INFOPLIST_FILE = "ZbarOsxWrapper/ZbarOsxWrapper-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -280,6 +334,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZbarOsxWrapper/ZbarOsxWrapper-Prefix.pch";
 				INFOPLIST_FILE = "ZbarOsxWrapper/ZbarOsxWrapper-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -304,6 +362,7 @@
 				42B3A84317743ED1005998B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

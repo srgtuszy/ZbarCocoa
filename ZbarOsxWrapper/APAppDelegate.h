@@ -11,5 +11,8 @@
 @interface APAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak, nonatomic) IBOutlet NSImageView *imageView;
+
+- (IBAction)decode:(id)sender;
 
 @end
