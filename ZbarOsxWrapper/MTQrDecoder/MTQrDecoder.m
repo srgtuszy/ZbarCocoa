@@ -114,6 +114,7 @@
             });
 
             zbar_image_scanner_destroy(imageScanner);
+            zbar_image_destroy(zimg);
         }
     });
 }
